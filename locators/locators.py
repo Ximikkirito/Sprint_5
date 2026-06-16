@@ -116,7 +116,11 @@ class RegisterPageLocators:
         By.XPATH,
         "//a[@href='/login']"
     )
-
+    # Восстановить пароль
+    FORGOT_PASSWORD_LINK = (
+        By.XPATH,
+        "//a[@href='/forgot-password']"
+    )
 
 class AccountPageLocators:
 
